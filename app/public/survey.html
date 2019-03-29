@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Friend Finder Survey</title>
+    <style>
+        .custom-select {
+            max-width: 200px;
+        }
+
+        h4 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <h1>Survey Questions</h1>
+        <hr>
+        <form>
+            <h3>Personal Info</h3>
+            <hr>
+            <label for="name-input">Name (Required): </label>
+            <input class="form-control" id="name-input" name="name-input" type="text">
+            <label for="photo-input">Photo URL (Required): </label>
+            <input class="form-control" id="photo-input" name="photo-input" type="text">
+            <hr>
+            <br>
+            <h4>Question 1</h4>
+            <p>I like to go for a walk on the beach.</p>
+            <select class="custom-select" id="question-1">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 2</h4>
+            <p>Chicago Pizza is better than Brooklyn Style Pizza.</p>
+            <select class="custom-select" id="question-2">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 3</h4>
+            <p>I like watching team sports, like Football.</p>
+            <select class="custom-select" id="question-3">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 4</h4>
+            <p>Comedies are better than dramas.</p>
+            <select class="custom-select" id="question-4">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 5</h4>
+            <p>Cats are better than dogs.</p>
+            <select class="custom-select" id="question-5">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 6</h4>
+            <p>I prefer to be alone.</p>
+            <select class="custom-select" id="question-6">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 7</h4>
+            <p>My favorite season is Winter.</p>
+            <select class="custom-select" id="question-7">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 8</h4>
+            <p>My favorite season is Summer.</p>
+            <select class="custom-select" id="question-8">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 9</h4>
+            <p>Trucks are awesome.</p>
+            <select class="custom-select" id="question-9">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h4>Question 10</h4>
+            <p>Star Wars is better than Star Trek.</p>
+            <select class="custom-select" id="question-10">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <button class="btn btn-primary" id="submit-answers">Submit Answers</button>
+        </form>
+
+        <div id="friend-modal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Your New Best Friend: </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div id="friend-modal-body" class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    
+    <script>
+        $("#submit-answers").click(event => {
+            event.preventDefault();
+            let surveyResults = {
+                name: $("#name-input").val().trim(),
+                photo: $("#photo-input").val().trim(),
+                scores: [
+                    $("#question-1").val(),
+                    $("#question-2").val(),
+                    $("#question-3").val(),
+                    $("#question-4").val(),
+                    $("#question-5").val(),
+                    $("#question-6").val(),
+                    $("#question-7").val(),
+                    $("#question-8").val(),
+                    $("#question-9").val(),
+                    $("#question-10").val()
+                ]
+            }
+            $.post("/api/friends", surveyResults, res => {
+                let friend = res.compatibleFriend;
+                $("#friend-modal-body").empty();
+                $("#friend-modal-body").append(`<h3>${friend.name}<h3>`);
+                $("#friend-modal-body").append(`<img src="${friend.photo}">`);
+                $('#friend-modal').modal('show')
+            });
+        })
+    </script>
+</body>
+
+</html>
